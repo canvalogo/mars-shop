@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+.container{
+    max-width: 1200px;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #dedbdb;
+    margin-bottom: 46px;
+}
+.nav__title{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+color: #424242;    
+padding-top: 48px;
+padding-bottom: 53px;
+display: flex;
+align-items: center;
+gap: 15px;
+}
+.nav__title::before{
+content: url(Vector\(1\).png);
+}
+.main__form{
+
+    margin: 0 auto;
+    padding: 66px 50px 37px 64px;
+width: 650px;
+border: 2px solid DEDBDB;
+
+border-radius: 50px;
+}
+.form__nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.form__nav-title{
+    
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+display: flex;
+align-items: center;
+gap: 10px;
+color: #F0400f;
+}
+.form__nav-title::after{
+    content: url(Vector\(2\).png);
+}
+.parent__student{
+    display: flex;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    width: 533px;
+    margin: 0 auto;
+    height: 70px;
+    align-items: center;
+    padding: 8px 11px;
+}
+.parent , .student{
+padding: 10px 40px;
+font-family: Inter;
+font-weight: 500;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.student{
+    background-color: white;
+text-align: center;
+border-radius: 15px;
+}
+h1{
+    font-family: Inter;
+font-weight: 700;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #0e0d5d;
+text-align: center;
+margin-top: 131px;
+margin-bottom: 20px;
+}
